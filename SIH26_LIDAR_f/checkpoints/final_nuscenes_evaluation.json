@@ -1,0 +1,91 @@
+{
+  "checkpoint": "C:\\Users\\Acer\\Downloads\\SIH26_LIDAR_updated_final\\SIH26_LIDAR\\checkpoints\\pointnet_pp_7class_nuscenes.pt",
+  "lidar_file": "C:\\Users\\Acer\\Downloads\\nuscenes_raw\\samples\\LIDAR_TOP\\n015-2018-07-24-11-22-45+0800__LIDAR_TOP__1532402927647951.pcd.bin",
+  "label_file": "C:\\Users\\Acer\\Downloads\\nuScenes-lidarseg-mini-v1.0\\extracted\\lidarseg\\v1.0-mini\\9d9bf11fb0e144c8b446d54a8a00184f_lidarseg.bin",
+  "points_evaluated": 34688,
+  "accuracy": 0.8737603782287823,
+  "accuracy_percent": 87.37603782287823,
+  "ground_truth_distribution": {
+    "Noise": 1,
+    "Ground": 16220,
+    "Static Structure": 13736,
+    "Static Pole": 0,
+    "Static Vegetation": 4034,
+    "Dynamic Vehicle": 584,
+    "Dynamic Pedestrian": 113
+  },
+  "prediction_distribution": {
+    "Noise": 25,
+    "Ground": 16101,
+    "Static Structure": 12614,
+    "Static Pole": 0,
+    "Static Vegetation": 2984,
+    "Dynamic Vehicle": 1427,
+    "Dynamic Pedestrian": 1537
+  },
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      13,
+      15656,
+      11,
+      0,
+      100,
+      176,
+      264
+    ],
+    [
+      8,
+      129,
+      12250,
+      0,
+      829,
+      402,
+      118
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      267,
+      243,
+      0,
+      1973,
+      422,
+      1127
+    ],
+    [
+      1,
+      37,
+      89,
+      0,
+      55,
+      402,
+      0
+    ],
+    [
+      1,
+      12,
+      20,
+      0,
+      27,
+      25,
+      28
+    ]
+  ]
+}

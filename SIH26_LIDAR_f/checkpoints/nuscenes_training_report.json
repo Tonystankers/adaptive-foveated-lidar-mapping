@@ -1,0 +1,82 @@
+{
+  "dataset": "nuScenes lidarseg mini",
+  "frames_total": 404,
+  "frames_training": 324,
+  "frames_validation": 80,
+  "points_per_frame": 4096,
+  "epochs": 10,
+  "best_validation_accuracy": 0.87843017578125,
+  "training_time_seconds": 928.4201557636261,
+  "history": [
+    {
+      "epoch": 1,
+      "train_accuracy": 0.6995359821084105,
+      "val_accuracy": 0.6243194580078125,
+      "train_loss": 1.065681556492676,
+      "val_loss": 1.1627952769398688
+    },
+    {
+      "epoch": 2,
+      "train_accuracy": 0.8099199459876543,
+      "val_accuracy": 0.6665771484375,
+      "train_loss": 0.7126097594514306,
+      "val_loss": 1.1072401136159897
+    },
+    {
+      "epoch": 3,
+      "train_accuracy": 0.8346889166184414,
+      "val_accuracy": 0.576458740234375,
+      "train_loss": 0.5999493140865255,
+      "val_loss": 1.1519306659698487
+    },
+    {
+      "epoch": 4,
+      "train_accuracy": 0.8529210973668981,
+      "val_accuracy": 0.5577178955078125,
+      "train_loss": 0.5265320900045796,
+      "val_loss": 1.332357507944107
+    },
+    {
+      "epoch": 5,
+      "train_accuracy": 0.8581286771797839,
+      "val_accuracy": 0.854339599609375,
+      "train_loss": 0.5058476761167432,
+      "val_loss": 0.5462584272027016
+    },
+    {
+      "epoch": 6,
+      "train_accuracy": 0.8682446891878858,
+      "val_accuracy": 0.827899169921875,
+      "train_loss": 0.4718929139184363,
+      "val_loss": 0.5518089570105076
+    },
+    {
+      "epoch": 7,
+      "train_accuracy": 0.8723581573109568,
+      "val_accuracy": 0.5592041015625,
+      "train_loss": 0.4456210787649508,
+      "val_loss": 1.0019270941615104
+    },
+    {
+      "epoch": 8,
+      "train_accuracy": 0.8788391866801698,
+      "val_accuracy": 0.55008544921875,
+      "train_loss": 0.4302724614555453,
+      "val_loss": 1.341397961974144
+    },
+    {
+      "epoch": 9,
+      "train_accuracy": 0.8915262104552469,
+      "val_accuracy": 0.87843017578125,
+      "train_loss": 0.38784949444694283,
+      "val_loss": 0.41054563149809836
+    },
+    {
+      "epoch": 10,
+      "train_accuracy": 0.8934393988715278,
+      "val_accuracy": 0.834326171875,
+      "train_loss": 0.37523822449607613,
+      "val_loss": 0.49877372607588766
+    }
+  ]
+}
